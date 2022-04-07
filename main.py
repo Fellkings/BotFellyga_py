@@ -5,7 +5,7 @@ import random
 bot = telebot.TeleBot('5221488288:AAHR4_qqgKWrWkDgbagc03HJ34HkzFLBPks')
 
 file_random = open('random_question.txt', 'r', encoding='UTF-8')
-random_f = file_random.read().split('>')
+random_f = file_random.read().split('<')
 file_random.close()
 
 @bot.message_handler(commands=['start'])
