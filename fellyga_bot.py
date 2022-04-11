@@ -57,7 +57,7 @@ def exit_user(message):
     keyboard = types.InlineKeyboardMarkup()
     mess = f"До скорых встреч, <b>{message.from_user.first_name}</b>!"
     bot.send_message(message.chat.id, mess, parse_mode='html', reply_markup=keyboard)
-    bot.send_sticker(message.chat.id, "CAACAgIAAxkBAAEEYxpiTNNN4VJyXPKSSQa-5BqqTiD5gwACMgoAAm4y2AAB_W-265DwO00jBA")
+    bot.send_sticker(message.chat.id, "CAACAgIAAxkBAAEEcM9iVCrTwH3RjmmHy4Sfu0Hb4GA1egACEoIAAp7OCwABpWYdJ23BzUkjBA")
 
 
 @bot.message_handler(content_types=['text'])
